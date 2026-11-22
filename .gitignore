@@ -1,0 +1,21 @@
+# Binaries and build output
+/tripwire
+/dist/
+/bin/
+*.exe
+*.test
+*.out
+coverage.*
+
+# Go workspace (local development against unreleased modules)
+go.work
+go.work.sum
+
+# Tool output
+
+# Local environment
+.env
+.envrc
+.DS_Store
+.idea/
+.vscode/

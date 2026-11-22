@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+type: software
+title: "Tripwire: Canary documents for RAG"
+abstract: >-
+  Tripwire plants unique synthetic canary records in vector stores, one per
+  permission boundary, and alerts with the boundary's name when a canary
+  appears where it shouldn't: in another user's or tenant's answer, a log, a
+  trace or outbound traffic.
+authors:
+  - family-names: Sadayamuthu
+    given-names: Karthikeyan
+    orcid: "https://orcid.org/0009-0008-3539-6048"
+license: Apache-2.0
+repository-code: "https://github.com/sadayamuthu/tripwire"
+url: "https://openastra.org"
+keywords:
+  - RAG
+  - honeytokens
+  - canary
+  - data leakage
+  - multi-tenancy
